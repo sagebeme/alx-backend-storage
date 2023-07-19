@@ -7,10 +7,12 @@ from uuid import uuid4
 
 import redis
 
+
 class Cache:
     """
     creating a cache to store something
     """
+
     def __init__(self):
         """
         constructor that calls the redis
@@ -19,8 +21,9 @@ class Cache:
         self._redis = redis.Redis
         self._redis.flushdb
 
-    
-    def store(self, data : UnionOfTypes) -> str:
+    @count_calls
+    @call_history
+    def store(self, data: UnionOfTypes) -> str:
         """
         method that generates a random key
         for the UUID
