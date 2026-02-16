@@ -1,16 +1,20 @@
 # ALX Backend — Storage
 
+## Description
+
 Backend storage track: **MySQL (advanced)**, **MongoDB (NoSQL)**, and **Redis**. Each folder is a separate project. This README explains **what each file does** and **how to run the exercises** so you can follow or redo them yourself.
 
----
+## Structure
 
-## Repository structure
+* [0x00. MySQL Advanced](./0x00-MySQL_Advanced)
+* [0x01. NoSQL (MongoDB)](./0x01-NoSQL)
+* [0x02. Redis basic](./0x02-redis_basic)
 
 | Folder | Topic | What you'll practice |
 |--------|--------|----------------------|
-| `0x00-MySQL_Advanced` | MySQL advanced | Constraints, indexes, triggers, procedures, views |
-| `0x01-NoSQL` | MongoDB | Documents, collections, queries, aggregation |
-| `0x02-redis_basic` | Redis | Caching, key-value ops, expiring keys |
+| [0x00-MySQL_Advanced](./0x00-MySQL_Advanced) | MySQL advanced | Constraints, indexes, triggers, procedures, views |
+| [0x01-NoSQL](./0x01-NoSQL) | MongoDB | Documents, collections, queries, aggregation |
+| [0x02-redis_basic](./0x02-redis_basic) | Redis | Caching, key-value ops, expiring keys |
 
 ---
 
